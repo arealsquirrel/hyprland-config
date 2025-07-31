@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while true
+do
+for filename in pictures/*; do
+	swww img $filename
+	sleep 10m
+done
+done

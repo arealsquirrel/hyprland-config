@@ -1,0 +1,52 @@
+window {
+  font-family: "Terminus";
+  margin: 0px;
+
+  background-color: #282828;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#input {
+  margin: 5px;
+  border: none;
+  color: #f8f8f2;
+  background-color: #3c3836;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+#outer-box {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: #ebdbb2;
+}
+
+#entry {
+  border: none;
+}
+
+#entry:focus {
+  border: none;
+}
+
+#entry:selected {
+  background-color: #458588;
+  border-radius: 5px;
+  border: none;
+}
